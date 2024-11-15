@@ -1,7 +1,7 @@
 from scapy.all import rdpcap, Raw
 
 # Load the pcap file
-packets = rdpcap("shield.pcap")
+packets = rdpcap("shield.pcap") #you can change file name and file path instead of "shield.pcap"
 
 # Extract readable ASCII text from packet payloads
 extracted_text = []
